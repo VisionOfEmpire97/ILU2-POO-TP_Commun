@@ -1,7 +1,7 @@
 package model;
 
 public class CalendrierAnnuel {
-	Mois[] calendrier = new Mois[12];
+	private Mois[] calendrier = new Mois[12];
 	
 	public CalendrierAnnuel() {
 		calendrier[0] = new Mois("Janvier",31);
@@ -35,8 +35,8 @@ public class CalendrierAnnuel {
 	
 	/////// CLASSE INTERNE ///////
 	private static class Mois {
-		String nom;
-		boolean[] jour;
+		private String nom;
+		private boolean[] jour;
 		
 		private Mois(String nom, int nbJours) {
 			this.nom = nom;
