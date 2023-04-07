@@ -42,7 +42,7 @@ public class CalendrierAnnuel {
 			this.nom = nom;
 			jour = new boolean[nbJours];
 			for (int i = 0; i < nbJours; i++) {
-				jour[i] = false;
+				jour[i] = false; // on considère que false = jour libre
 			}
 	}
 		private boolean estLibre(int jour) {
@@ -60,5 +60,5 @@ public class CalendrierAnnuel {
 		}
 	}
 		
-	/////// FIN CLASSE INTERNE ///////
+	///// FIN CLASSE INTERNE /////
 }

@@ -3,7 +3,7 @@ package model;
 public abstract class Formulaire {
 	private int jour;
 	private int mois;
-	private int num_entite;
+	private int idEntite;
 	protected Formulaire(int jour, int mois) {
 		this.jour = jour;
 		this.mois = mois;
@@ -12,13 +12,13 @@ public abstract class Formulaire {
 	 * @return the num_entite
 	 */
 	public int getIdentificationEntite() {
-		return num_entite;
+		return idEntite;
 	}
 	/**
 	 * @param num_entite the num_entite to set
 	 */
 	public void setIdentificationEntite(int num_entite) {
-		this.num_entite = num_entite;
+		this.idEntite = num_entite;
 	}
 	/**
 	 * @return the jour
