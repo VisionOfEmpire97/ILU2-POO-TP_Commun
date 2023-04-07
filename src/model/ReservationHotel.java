@@ -17,5 +17,4 @@ public class ReservationHotel extends Reservation {
 		 return "Le " + getJour() + "/" + getMois() + " : chambre n°" + numChambre + "possédant " +
 				nbLitsSimples + " lits simples et " + nbLitsDoubles + " lits doubles" ;
 	}
-
 }
