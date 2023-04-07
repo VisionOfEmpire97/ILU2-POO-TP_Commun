@@ -31,5 +31,10 @@ public class CentraleReservation<E extends EntiteReservable<F>,F extends Formula
 		EntiteReservable<F> entiteToBook = tabEntites[idEntite];
 		resForm.setIdentificationEntite(entiteToBook.getNumIdentification());
 		return entiteToBook.reserver(resForm);
+		// OU 
+		//int[] tab = donnerPossibilites(resForm);
+		//resForm.setIdentificationEntite(this.tabEntites[tab[idEntites-1]].getNumIdentification();
+		//return this.tabEntites[tab[idEntites-1]].reserver();
 	 }
+	
 }
